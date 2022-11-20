@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin:20;
-  padding: 20;
+  margin:0px;
+  padding: 0px;
 }
 
 header {
@@ -24,7 +24,7 @@ main {
 }
 
 .step-box:last-child {
-  margin-right: 0;
+  margin-bottom: : 0;
 }
 
 .step-img1 {
@@ -32,6 +32,7 @@ main {
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
+
 }
 
 .step-img2 {
@@ -68,10 +69,12 @@ footer {
 main{
   display: block;
   width:100%;
+
 }
 .step-box {
   width: 90%;
-  margin-right: 30px;
-  margin-left: 25px;
+margin: 0px auto;
+margin-bottom:20px;
 }
 }
+
